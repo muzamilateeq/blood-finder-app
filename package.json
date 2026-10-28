@@ -1,0 +1,11 @@
+{
+  "name": "blood-finder-root",
+  "version": "1.0.0",
+  "description": "BloodFinder root workspace",
+  "scripts": {
+    "start": "npm start --prefix app",
+    "android": "npm run android --prefix app",
+    "ios": "npm run ios --prefix app",
+    "web": "npm run web --prefix app"
+  }
+}
